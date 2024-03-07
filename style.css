@@ -118,12 +118,15 @@ nav ul li{
 
 main{
     display: flex;
-    justify-content: center;
-    margin-top: 72px;
+    align-items: center;
+    padding-top: 72px;
+    background-color: #E5E7EB;
+    flex-direction: column;
 }
 
 .main__info{
     width: 1536px;
+    display: flex;
 }
 .main__info_block{
     width: 756px;
@@ -132,15 +135,140 @@ main{
 .main__info_block_up_text{
     font-family: alfa slab one;
     font-size: 2.25em;
+    font-weight: 400;
 }
 
 .main__info_block_up_down{
     margin: 12px 0px 16px;
     font-family: alfa slab one;
     font-size: 1.25em;
+    font-weight: 400;
 }
 .main__info_block_img{
     width: 756px;
     height: 392px;
 }
+
+.shipping__calculator{
+    width: 756px;
+    height: 584px;
+    margin-left: 24px;
+    background-color: #F9FAFB;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    flex-direction: column;
+
+}
+
+.shipping__calculator_title{
+    font-family: alha slab one;
+    font-size: 30px;
+    color: #111827;
+}
+.shipping__calculator_hint_info{
+    font-family: alha slab one;
+    font-size: 16px;
+    color: #111827;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.shipping__calculator_input{
+    width: 496px;
+    height: 48px;
+    margin-top: 28px;
+    border-radius: 4px;
+    font-family: alha slab one;
+    font-size: 16px;
+    padding-left: 12px;
+    border: #111827 2px solid;
+    box-sizing: border-box;
+}
+
+.shipping__calculator_input::placeholder{
+    font-family: alha slab one;
+    font-size: 16px;
+    color: #9CA3AF;
+}
+
+.shipping__calculator_form{
+    margin-top: 24px;
+    width: 236px;
+    height: 48px;
+    border-radius: 4px;
+    font-family: alha slab one;
+    font-size: 16px;
+    padding-left: 12px;
+    border: #111827 2px solid;
+}
+
+.shipping__calculator_form:last-child{
+    margin-left: 24px;
+}
+
+.shipping__calculator_form::placeholder{
+    font-family: alha slab one;
+    font-size: 16px;
+    color: #9CA3AF;
+}
+
+.shipping__calculator_block{
+    width: 496px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shipping__calculator_button{
+    width: 496px;
+    height: 44px;
+    margin-top: 28px;
+    border-radius: 4px;
+    background-color: #8B5CF6;
+    border: none;
+    font-family: alha slab one;
+    font-size: 16px;
+    color: #F9FAFB; 
+}
+
+.block__our_advantages{
+    margin-top: 72px;
+}
+
+.block__our_advantages_title{
+    color: #111827;
+    font-family: alha slab one;
+    font-size: 30px;
+    text-align: center;
+}
+
+.block__our_advantages_content{
+    display: flex;
+    align-items: center;
+    width: 496px;
+    height: 184px;
+}
+
+.text__our_advantages{
+    margin-left: 12px;
+}
+
+.title__our_advantages{
+    font-family: alha slab one;
+    font-size: 24px;
+}
+
+.main_text__our_advantages{
+    margin-top: 12px;
+    font-family: alha slab one;
+    font-size: 14px;
+}
+
+.block__our_advantages_block_container{
+    display: flex;
+    width: 1536px;
+    justify-content: space-between;
+}
+
 
