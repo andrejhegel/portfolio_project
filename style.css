@@ -317,5 +317,64 @@ main{
     color: #F9FAFB;
 }
 
+.swiper{
+    margin-top: 72px;
+    width: 1536px;
+    height: 386px;
+}
 
+.swiper-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.swiper-button-prev{
+    content: url(image/left-arrow.png);
+    height: 60px;
+    width: 60px;
+}
+
+.swiper-button-next{
+    content: url(image/right-arrow.png);
+    height: 60px;
+    width: 60px;
+}
+
+.slider__block{
+    width: 626px;
+    height: 318px;
+    background-color: #F9FAFB;
+    border-radius: 16px
+}
+
+.slider__review{
+    width: 540px;
+    text-align: start;
+    font-family: alfa slab one;
+    font-size: 24px;
+    color: #111827;
+}
+
+.swiper-slide{
+    display: flex;
+    width: 1276px;
+    justify-content: space-evenly;
+}
+
+.slider__content{
+    margin: 32px 43px;
+}
+
+.slider__review_author{
+    bottom: 100px;
+    position: absolute;
+    color: #6B7280;
+    font-family: alfa slab one;
+    font-size: 24px;
+}
+
+.slider__review_author::after{
+    content: url(image/commas.png);
+    margin-left: 400px;
+}

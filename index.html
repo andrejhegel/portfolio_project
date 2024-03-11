@@ -1,192 +1,360 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="theme-color" content="#ADD8E6" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Без проблемная доставка купленных вещей из США, Европы и Азии в Россию. Сэкономьте на покупках и наслаждайтесь мировыми брендами — наш сервис позволяет вам легко и удобно заказывать товары со всего мира и получать их в России"
+    />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="theme-color" content="#ADD8E6" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description"
-    content="Без проблемная доставка купленных вещей из США, Европы и Азии в Россию. Сэкономьте на покупках и наслаждайтесь мировыми брендами — наш сервис позволяет вам легко и удобно заказывать товары со всего мира и получать их в России" />
-  <title>Document</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-  <header>
-    <div class="header__container">
-      <div class="header__content_up">
-        <div class="header__content_up_left">
-          <div class="header__logo"><img src="/image/logo.png" alt="" /></div>
-          <div class="header__title">FromBoard Delivery</div>
-        </div>
-        <div class="header__content_up_right">
-          <div class="header__text_up">
-            Доставляем товары из заграницы в Россию <br />
-            <div class="header__text_main">
-              Стоимость от <b>550</b> рублей за заказ <br />
+  <body>
+    <header>
+      <div class="header__container">
+        <div class="header__content_up">
+          <div class="header__content_up_left">
+            <div class="header__logo"><img src="image/logo.png" alt="" /></div>
+            <div class="header__title">FromBoard Delivery</div>
+          </div>
+          <div class="header__content_up_right">
+            <div class="header__text_up">
+              Доставляем товары из заграницы в Россию <br />
+              <div class="header__text_main">
+                Стоимость от <b>550</b> рублей за заказ <br />
+              </div>
+              <div class="header__text_down">
+                <strong>1 $ = 93 ₽ | 1 € = 99 ₽ | 1 ¥ = 13 ₽</strong>
+              </div>
             </div>
-            <div class="header__text_down">
-              <strong>1 $ = 93 ₽ | 1 € = 99 ₽ | 1 ¥ = 13 ₽</strong>
+            <div class="header__line"></div>
+            <div class="header__info">
+              <div class="header__number">+7 (800) 123 45-67</div>
+              <div class="header__text_info">Звонки по России бесплатны</div>
             </div>
           </div>
-          <div class="header__line"></div>
-          <div class="header__info">
-            <div class="header__number">+7 (800) 123 45-67</div>
-            <div class="header__text_info">Звонки по России бесплатны</div>
+        </div>
+        <div class="header__content_down">
+          <div class="header__menu">
+            <nav>
+              <ul>
+                <li><a href="">Калькулятор</a></li>
+                <li><a href="">О нас</a></li>
+                <li><a href="">Гарантии</a></li>
+                <li><a href="">Отзывы</a></li>
+              </ul>
+            </nav>
+          </div>
+          <button class="header__button">Оставить заявку</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="main__info">
+        <div class="main__info_block">
+          <h1 class="main__info_block_up_text">
+            Без проблемная доставка купленных <br />
+            вещей из США, Европы и Азии в Россию
+          </h1>
+          <h2 class="main__info_block_up_down">
+            Сэкономьте на покупках и наслаждайтесь мировыми брендами —
+            <br />наш сервис позволяет вам легко и удобно заказывать товары
+            со всего <br />мира и получать их в России
+          </h2>
+          <div class="main__info_block_img">
+            <img src="image/info_img.png" alt="" />
+          </div>
+        </div>
+        <div class="shipping__calculator">
+          <div class="shipping__calculator_title">Калькулятор доставки</div>
+          <div class="shipping__calculator_hint_info">
+            Посчитайте, сколько будет стоить перевозка <br />покупки из зарубежа
+          </div>
+          <input
+            type="text"
+            class="shipping__calculator_input"
+            placeholder="Имя"
+          />
+          <div class="shipping__calculator_block">
+            <input
+              type="text"
+              class="shipping__calculator_form"
+              placeholder="Почта"
+            />
+            <input
+              type="text"
+              class="shipping__calculator_form"
+              placeholder="Телефон"
+            />
+          </div>
+          <div class="shipping__calculator_block">
+            <input
+              type="text"
+              class="shipping__calculator_form"
+              placeholder="Общая площадь, м²"
+            />
+            <input
+              type="text"
+              class="shipping__calculator_form"
+              placeholder="Вес, кг"
+            />
+          </div>
+          <div class="shipping__calculator_block">
+            <input
+              type="text"
+              class="shipping__calculator_form"
+              placeholder="Страна покупки"
+            />
+            <input
+              type="text"
+              class="shipping__calculator_form"
+              placeholder="Город покупки"
+            />
+          </div>
+          <div class="shipping__calculator_block">
+            <input
+              type="text"
+              class="shipping__calculator_form"
+              placeholder="Область доставки"
+            />
+            <input
+              type="text"
+              class="shipping__calculator_form"
+              placeholder="Город доставки"
+            />
+          </div>
+          <button class="shipping__calculator_button">Заказать расчёт</button>
+        </div>
+      </div>
+
+      <div class="block__our_advantages">
+        <div class="block__our_advantages_title">Наши преимущества</div>
+        <div class="block__our_advantages_block">
+          <div class="block__our_advantages_block_container">
+            <div class="block__our_advantages_content">
+              <div class="img__our_advantages">
+                <img src="image/our_advantages/1.png" alt="" />
+              </div>
+              <div class="text__our_advantages">
+                <div class="title__our_advantages">Растоможка груза</div>
+                <div class="main_text__our_advantages">
+                  Мы берём на себя все формальности <br />и бумажную волокиту,
+                  связанную <br />с растаможкой груза
+                </div>
+              </div>
+            </div>
+            <div class="block__our_advantages_content">
+              <div class="img__our_advantages">
+                <img src="image/our_advantages/2.png" alt="" />
+              </div>
+              <div class="text__our_advantages">
+                <div class="title__our_advantages">Надёжная упаковка</div>
+                <div class="main_text__our_advantages">
+                  Все товары упаковываются нашими <br />специалистами с особым
+                  вниманием <br />к деталям, гарантируя, что они дойдут
+                  <br />в безопасности и в отличном состоянии
+                </div>
+              </div>
+            </div>
+            <div class="block__our_advantages_content">
+              <div class="img__our_advantages">
+                <img src="image/our_advantages/3.png" alt="" />
+              </div>
+              <div class="text__our_advantages">
+                <div class="title__our_advantages">Быстро и выгодно</div>
+                <div class="main_text__our_advantages">
+                  Мы предлагаем быструю и выгодную <br />доставку, чтобы вы
+                  могли насладиться <br />покупками как можно скорее.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="block__our_advantages_block_container">
+            <div class="block__our_advantages_content">
+              <div class="img__our_advantages">
+                <img src="image/our_advantages/4.png" alt="" />
+              </div>
+              <div class="text__our_advantages">
+                <div class="title__our_advantages">Удобный сервис</div>
+                <div class="main_text__our_advantages">
+                  Стремимся сделать процесс доставки <br />максимально удобным
+                  для вас, чтобы <br />опыт остался приятным и беззаботным
+                </div>
+              </div>
+            </div>
+            <div class="block__our_advantages_content">
+              <div class="img__our_advantages">
+                <img src="image/our_advantages/5.png" alt="" />
+              </div>
+              <div class="text__our_advantages">
+                <div class="title__our_advantages">Прозрачность работы</div>
+                <div class="main_text__our_advantages">
+                  Мы предоставляем полный контроль <br />над каждым этапом
+                  доставки, от момента <br />заказа до момента прибытия заказа
+                </div>
+              </div>
+            </div>
+            <div class="block__our_advantages_content">
+              <div class="img__our_advantages">
+                <img src="image/our_advantages/6.png" alt="" />
+              </div>
+              <div class="text__our_advantages">
+                <div class="title__our_advantages">Страхование груза</div>
+                <div class="main_text__our_advantages">
+                  Наше страхование обеспечивает полную <br />защиту и покрытие
+                  почти все неприятные<br />
+                  и неожиданные ситуации
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="header__content_down">
-        <div class="header__menu">
-          <nav>
-            <ul>
-              <li><a href="">Калькулятор</a></li>
-              <li><a href="">О нас</a></li>
-              <li><a href="">Гарантии</a></li>
-              <li><a href="">Отзывы</a></li>
-            </ul>
-          </nav>
+
+      <div class="block__ouality_assurance">
+        <div class="titile__ouality_assurance">Гарантии качества</div>
+        <div class="text__ouality_assurance">
+          Наши гарантии качества включают в себя полный спектр документов,
+          необходимых<br />
+          для ввоза и вывоза товаров, а также для успешного бизнеса на мировом
+          рынке. <br />
+          Мы предоставляем вам надёжность и уверенность
         </div>
-        <button class="header__button">Оставить заявку</button>
+        <div class="certificate__block">
+          <div class="certificate__block_content">
+            <div class="cetificate__img">
+              <img src="image/certificate/certificate_1.png" alt="" />
+            </div>
+            <div class="cetificate__text">Свидетельство о регистрации в РФ</div>
+          </div>
+          <div class="certificate__block_content">
+            <div class="cetificate__img">
+              <img src="image/certificate/certificate_2.png" alt="" />
+            </div>
+            <div class="cetificate__text">
+              Свидетельство о регистрации в США
+            </div>
+          </div>
+          <div class="certificate__block_content">
+            <div class="cetificate__img">
+              <img src="image/certificate/certificate_3.png" alt="" />
+            </div>
+            <div class="cetificate__text">
+              Свидетельство о регистрации в Китае
+            </div>
+          </div>
+          <div class="certificate__block_content">
+            <div class="cetificate__img">
+              <img src="image/certificate/certificate_4.png" alt="" />
+            </div>
+            <div class="cetificate__text">
+              Свидетельство о регистрации в Великобритании
+            </div>
+          </div>
+        </div>
+        <button class="cerificate__button">Показать больше документов</button>
       </div>
-    </div>
-  </header>
 
-  <main>
-    <div class="main__info">
-      <div class="main__info_block">
-        <h1 class="main__info_block_up_text">Без проблемная доставка купленных <br> вещей из США, Европы и Азии в Россию
-        </h1>
-        <h2 class="main__info_block_up_down">Сэкономьте на покупках и наслаждайтесь мировыми брендами — <br>наш сервис
-          позволяет вам легко и удобно заказывать товары со всего <br>мира и получать их в России</h2>
-        <div class="main__info_block_img"><img src="/image/info_img.png" alt=""></div>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="slider__block">
+              <div class="slider__content">
+                <div class="slider__review">
+                  Я заказала последний iPhone из США через ваш сервис,
+                  и доставка прошла быстро и без каких‑либо проблем. Гарантии
+                  качества и надёжная упаковка сделали мой опыт покупки
+                  невероятно позитивным
+                </div>
+                <div class="slider__review_author">Анна</div>
+              </div>
+            </div>
+            <div class="slider__block">
+              <div class="slider__content">
+                <div class="slider__review">
+                  Я уже несколько лет заказываю дизайнерскую одежду из Франции
+                  через ваш сервис, и он никогда меня не подводил. Важно иметь
+                  надёжную компанию, которая позаботится о вашем заказе
+                  и предоставит все необходимые документы для ввоза в Россию
+                </div>
+                <div class="slider__review_author">Алексей</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slider__block">
+              <div class="slider__content">
+                <div class="slider__review">
+                  Я заказал редкий антикварный предмет из Японии через ваш
+                  сервис, и остался впечатлен. Все пришло в отличном состоянии,
+                  и ваша гарантия качества действительно работает. Спасибо за
+                  ваше профессиональное обслуживание
+                </div>
+                <div class="slider__review_author">Дмитрий</div>
+              </div>
+            </div>
+            <div class="slider__block">
+              <div class="slider__content">
+                <div class="slider__review">
+                  Я уже несколько лет заказываю дизайнерскую одежду из Франции
+                  через ваш сервис, и он никогда меня не подводил. Важно иметь
+                  надежную компанию, которая позаботится о вашем заказе и
+                  предоставит все необходимые документы для ввоза в Россию
+                </div>
+                <div class="slider__review_author">Ольга</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slider__block">
+              <div class="slider__content">
+                <div class="slider__review">
+                  Заказал шикарные часы из Швейцарии, и доставка была невероятно
+                  быстрой. Ваш сервис делает интернет-шоппинг более доступным и
+                  удобным
+                </div>
+                <div class="slider__review_author">Игорь</div>
+              </div>
+            </div>
+            <div class="slider__block">
+              <div class="slider__content">
+                <div class="slider__review">
+                  Ваш сервис действительно изменил мой способ покупок. Я больше
+                  не переживаю о таможенных вопросах и документах - все у вас в
+                  порядке. Спасибо за ваше качество и надежность
+                </div>
+                <div class="slider__review_author">Екатирина</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
       </div>
-      <div class="shipping__calculator">
-        <div class="shipping__calculator_title">Калькулятор доставки</div>
-        <div class="shipping__calculator_hint_info">Посчитайте, сколько будет стоить перевозка <br>покупки из зарубежа
-        </div>
-        <input type="text" class="shipping__calculator_input" placeholder="Имя">
-        <div class="shipping__calculator_block">
-          <input type="text" class="shipping__calculator_form" placeholder="Почта">
-          <input type="text" class="shipping__calculator_form" placeholder="Телефон">
-        </div>
-        <div class="shipping__calculator_block">
-          <input type="text" class="shipping__calculator_form" placeholder="Общая площадь, м²">
-          <input type="text" class="shipping__calculator_form" placeholder="Вес, кг">
-        </div>
-        <div class="shipping__calculator_block">
-          <input type="text" class="shipping__calculator_form" placeholder="Страна покупки">
-          <input type="text" class="shipping__calculator_form" placeholder="Город покупки">
-        </div>
-        <div class="shipping__calculator_block">
-          <input type="text" class="shipping__calculator_form" placeholder="Область доставки">
-          <input type="text" class="shipping__calculator_form" placeholder="Город доставки">
-        </div>
-        <button class="shipping__calculator_button">Заказать расчёт</button>
-      </div>
-    </div>
 
-    <div class="block__our_advantages">
-      <div class="block__our_advantages_title">Наши преимущества</div>
-      <div class="block__our_advantages_block">
-        <div class="block__our_advantages_block_container">
-          <div class="block__our_advantages_content">
-            <div class="img__our_advantages"><img src="/image/our_advantages/1.png" alt=""></div>
-            <div class="text__our_advantages">
-              <div class="title__our_advantages">Растоможка груза</div>
-              <div class="main_text__our_advantages">Мы берём на себя все формальности <br>и бумажную волокиту,
-                связанную <br>с растаможкой груза</div>
-            </div>
-          </div>
-          <div class="block__our_advantages_content">
-            <div class="img__our_advantages"><img src="/image/our_advantages/2.png" alt=""></div>
-            <div class="text__our_advantages">
-              <div class="title__our_advantages">Надёжная упаковка</div>
-              <div class="main_text__our_advantages">Все товары упаковываются нашими <br>специалистами с особым
-                вниманием <br>к деталям, гарантируя, что они дойдут <br>в безопасности и в отличном состоянии</div>
-            </div>
-          </div>
-          <div class="block__our_advantages_content">
-            <div class="img__our_advantages"><img src="/image/our_advantages/3.png" alt=""></div>
-            <div class="text__our_advantages">
-              <div class="title__our_advantages">Быстро и выгодно</div>
-              <div class="main_text__our_advantages">Мы предлагаем быструю и выгодную <br>доставку, чтобы вы могли
-                насладиться <br>покупками как можно скорее.</div>
-            </div>
-          </div>
-
-        </div>
-        <div class="block__our_advantages_block_container">
-          <div class="block__our_advantages_content">
-            <div class="img__our_advantages"><img src="/image/our_advantages/4.png" alt=""></div>
-            <div class="text__our_advantages">
-              <div class="title__our_advantages">Удобный сервис</div>
-              <div class="main_text__our_advantages">Стремимся сделать процесс доставки <br>максимально удобным для вас,
-                чтобы <br>опыт остался приятным и беззаботным</div>
-            </div>
-          </div>
-          <div class="block__our_advantages_content">
-            <div class="img__our_advantages"><img src="/image/our_advantages/5.png" alt=""></div>
-            <div class="text__our_advantages">
-              <div class="title__our_advantages">Прозрачность работы</div>
-              <div class="main_text__our_advantages">Мы предоставляем полный контроль <br>над каждым этапом доставки,
-                от момента <br>заказа до момента прибытия заказа</div>
-            </div>
-          </div>
-          <div class="block__our_advantages_content">
-            <div class="img__our_advantages"><img src="/image/our_advantages/6.png" alt=""></div>
-            <div class="text__our_advantages">
-              <div class="title__our_advantages">Страхование груза</div>
-              <div class="main_text__our_advantages">Наше страхование обеспечивает полную <br>защиту и покрытие почти
-                все неприятные<br> и неожиданные ситуации</div>
-            </div>
-          </div>
-        </div>
-
-
-      </div>
-    </div>
-
-
-    <div class="block__ouality_assurance">
-      <div class="titile__ouality_assurance">Гарантии качества</div>
-      <div class="text__ouality_assurance">Наши гарантии качества включают в себя полный спектр документов,
-        необходимых<br>
-        для ввоза и вывоза товаров, а также для успешного бизнеса на мировом рынке. <br>
-        Мы предоставляем вам надёжность и уверенность</div>
-      <div class="certificate__block">
-        <div class="certificate__block_content">
-          <div class="cetificate__img"><img src="/image/certificate/certificate_1.png" alt=""></div>
-          <div class="cetificate__text">Свидетельство о регистрации в РФ</div>
-        </div>
-        <div class="certificate__block_content">
-          <div class="cetificate__img"><img src="/image/certificate/certificate_2.png" alt=""></div>
-          <div class="cetificate__text">Свидетельство о регистрации в США</div>
-        </div>
-        <div class="certificate__block_content">
-          <div class="cetificate__img"><img src="/image/certificate/certificate_3.png" alt=""></div>
-          <div class="cetificate__text">Свидетельство о регистрации в Китае</div>
-        </div>
-        <div class="certificate__block_content">
-          <div class="cetificate__img"><img src="/image/certificate/certificate_4.png" alt=""></div>
-          <div class="cetificate__text">Свидетельство о регистрации в Великобритании</div>
-        </div>
-      </div>
-      <button class="cerificate__button">Показать больше документов</button>
-    </div>
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  </main>
-</body>
-
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script src="main.js"></script>
+    </main>
+  </body>
 </html>
