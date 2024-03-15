@@ -40,7 +40,7 @@ header{
     display: flex;
 }
 
-.header__title{
+.title{
     font-family: Abril Fatface;
     font-size: 1.5em;
 }
@@ -66,12 +66,12 @@ header{
     margin: 0px 12px 0px;
 }
 
-.header__number{
+.number{
     font-family: alfa slab one;
     font-size: 2.25em;
 }
 
-.header__text_info{
+.info{
     font-family: alfa slab one;
     font-size: 1.5em;
 }
@@ -82,7 +82,7 @@ header{
     text-align: center;
 }
 
-.header__menu{ 
+.menu{ 
     font-family: alha slab one;
 }
 
@@ -164,12 +164,12 @@ main{
 
 .shipping__calculator_title{
     font-family: alha slab one;
-    font-size: 30px;
+    font-size: 1.875px;
     color: #111827;
 }
 .shipping__calculator_hint_info{
     font-family: alha slab one;
-    font-size: 16px;
+    font-size: 1em;
     color: #111827;
     text-align: center;
     margin-top: 16px;
@@ -181,7 +181,7 @@ main{
     margin-top: 28px;
     border-radius: 4px;
     font-family: alha slab one;
-    font-size: 16px;
+    font-size: 1em;
     padding-left: 12px;
     border: #111827 2px solid;
     box-sizing: border-box;
@@ -189,28 +189,28 @@ main{
 
 .shipping__calculator_input::placeholder{
     font-family: alha slab one;
-    font-size: 16px;
+    font-size: 1em;
     color: #9CA3AF;
 }
 
-.shipping__calculator_form{
+.form__data{
     margin-top: 24px;
     width: 236px;
     height: 48px;
     border-radius: 4px;
     font-family: alha slab one;
-    font-size: 16px;
+    font-size: 1em;
     padding-left: 12px;
     border: #111827 2px solid;
 }
 
-.shipping__calculator_form:last-child{
+.form__data:last-child{
     margin-left: 24px;
 }
 
-.shipping__calculator_form::placeholder{
+.form__data::placeholder{
     font-family: alha slab one;
-    font-size: 16px;
+    font-size: 1em;
     color: #9CA3AF;
 }
 
@@ -220,7 +220,7 @@ main{
     justify-content: space-between;
 }
 
-.shipping__calculator_button{
+.button__sending_data{
     width: 496px;
     height: 44px;
     margin-top: 28px;
@@ -228,7 +228,7 @@ main{
     background-color: #8B5CF6;
     border: none;
     font-family: alha slab one;
-    font-size: 16px;
+    font-size: 1em;
     color: #F9FAFB; 
 }
 
@@ -239,7 +239,7 @@ main{
 .block__our_advantages_title{
     color: #111827;
     font-family: alha slab one;
-    font-size: 30px;
+    font-size: 1.875em;
     text-align: center;
 }
 
@@ -256,13 +256,13 @@ main{
 
 .title__our_advantages{
     font-family: alha slab one;
-    font-size: 24px;
+    font-size: 1.5em;
 }
 
 .main_text__our_advantages{
     margin-top: 12px;
     font-family: alha slab one;
-    font-size: 14px;
+    font-size: 0.875em;
 }
 
 .block__our_advantages_block_container{
@@ -273,7 +273,7 @@ main{
 
 .titile__ouality_assurance{
     font-family: alfa slab one;
-    font-size: 30px;
+    font-size: 1.875em;
     color: #111827;
 }
 
@@ -288,14 +288,14 @@ main{
 
 .text__ouality_assurance{
     font-family: alfa slab one;
-    font-size: 16px;
+    font-size: 1em;
     color: #111827;
     margin-top: 12px;
 }
 
 .cetificate__text{
     font-family: alfa slab one;
-    font-size: 18px;
+    font-size: 1.125em;
     color: #111827;
 }
 
@@ -313,7 +313,7 @@ main{
     border-radius: 12px;
     margin-top: 36px;
     font-family: alfa slab one;
-    font-size: 16px;
+    font-size: 1em;
     color: #F9FAFB;
 }
 
@@ -352,7 +352,7 @@ main{
     width: 540px;
     text-align: start;
     font-family: alfa slab one;
-    font-size: 24px;
+    font-size: 1.5em;
     color: #111827;
 }
 
@@ -371,10 +371,121 @@ main{
     position: absolute;
     color: #6B7280;
     font-family: alfa slab one;
-    font-size: 24px;
+    font-size: 1.5em;
 }
 
 .slider__review_author::after{
     content: url(image/commas.png);
     margin-left: 400px;
 }
+
+.form__question{
+    display: flex;
+    margin-top: 72px;
+    width: 1536px;
+    background-color: #F9FAFB;
+    height: 534px;
+    border-radius: 16px;
+    align-items: center;
+    padding: 64px 0px 0px;
+    flex-direction: column;
+}
+
+.form__question_title{
+    font-family: alfa slab one;
+    font-size: 1.875em;
+    color: #111827;
+}
+
+.form__message{
+    margin-top: 24px;
+    width: 497px;
+    height: 150px;
+    border-radius: 4px;
+    font-family: alha slab one;
+    font-size: 1em;
+    padding-left: 12px;
+    border: #111827 2px solid;
+    box-sizing: border-box;
+}
+
+.form__message::placeholder{
+    font-family: alha slab one;
+    font-size: 1em;
+    color: #9CA3AF;
+}
+
+.form__question_form{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 497px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #111827;
+    height: 178px;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    width: 1538px;
+    align-items: center;
+}
+
+footer .title{
+    color: #F9FAFB;
+}
+.footer__container_left{
+    display: flex;
+   flex-direction: column;
+}
+.footer__content_up{
+    display: flex;
+    align-items: center;
+}
+
+.footer__container_center{
+    display: flex;
+    align-items: center;
+}
+
+footer nav ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #F9FAFB;     
+    transition: color 0.2s ease;
+}
+
+.footer__text{
+    font-size: 0.75em;
+    font-family: alha slab one;
+    color: #F9FAFB;
+}
+
+.footer__smile{
+    width: 16px;
+}
+
+.footer__content_down{
+    display: flex;
+}
+
+.footer__container_right{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    color: #F9FAFB;
+}
+
+
+
+
+
+
+
+
