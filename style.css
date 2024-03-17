@@ -1,173 +1,179 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
 
-header{
-   background-color: #F9FAFB; 
-   width: 100vw;
-   height: 192px;
-   display: flex;
-   justify-content: center;
-   align-items: center; 
+header {
+    background-color: #f9fafb;
+    width: 100vw;
+    height: 192px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.header__container{
+.header__container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.header__content_up{
+.header__content_up {
     display: flex;
     justify-content: space-between;
     width: 1536px;
 }
 
-.header__content_down{
+.header__content_down {
     display: flex;
     justify-content: space-between;
     width: 1536px;
-    margin-top: 24px
+    margin-top: 24px;
 }
 
-.header__content_up_left{
+.header__content_up_left {
     display: flex;
     align-items: center;
 }
-.header__content_up_right{
+
+.header__content_up_right {
     display: flex;
 }
 
-.title{
+.title {
     font-family: Abril Fatface;
     font-size: 1.5em;
 }
 
-.header_text_up{
-    color: #111827; 
+.header_text_up {
+    color: #111827;
 }
 
-.header__text_down{
+.header__text_down {
     text-align: end;
-    color: #111827; 
+    color: #111827;
 }
 
-.header__text_main{
+.header__text_main {
     text-align: end;
-    color: #111827; 
+    color: #111827;
 }
 
-.header__line{
+.header__line {
     height: 4.75em;
-    width: 1px; 
-    background-color: #A78BFA;
+    width: 1px;
+    background-color: #a78bfa;
     margin: 0px 12px 0px;
 }
 
-.number{
+.number {
     font-family: alfa slab one;
     font-size: 2.25em;
 }
 
-.info{
+.info {
     font-family: alfa slab one;
     font-size: 1.5em;
 }
 
-.header__info{
+.header__info {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
-.menu{ 
+.menu {
     font-family: alha slab one;
 }
 
-nav ul{
+nav ul {
     display: flex;
-    
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     list-style-type: none;
-    color: #111827;     
+    color: #111827;
     transition: color 0.2s ease;
 }
 
-nav ul li a:hover{
-    color: #8B5CF6;
+nav ul li a:hover {
+    color: #8b5cf6;
 }
 
-nav ul li{ 
+nav ul li {
     list-style-type: none;
     margin-right: 24px;
 }
 
-.header__button{
+.header__button {
     width: 186px;
     height: 44px;
-    color: #F9FAFB;
-    background-color: #8B5CF6;
-    border: none;   
+    color: #f9fafb;
+    background-color: #8b5cf6;
+    border: none;
     border-radius: 4px;
 }
 
-main{
+main {
     display: flex;
     align-items: center;
     padding-top: 72px;
-    background-color: #E5E7EB;
+    background-color: #e5e7eb;
     flex-direction: column;
+
 }
 
-.main__info{
+.main__info {
     width: 1536px;
     display: flex;
 }
-.main__info_block{
+
+.main__info_block {
     width: 756px;
 }
 
-.main__info_block_up_text{
+.main__info_block_up_text {
     font-family: alfa slab one;
     font-size: 2.25em;
     font-weight: 400;
+    width: 650px;
 }
 
-.main__info_block_up_down{
+.main__info_block_up_down {
     margin: 12px 0px 16px;
     font-family: alfa slab one;
     font-size: 1.25em;
     font-weight: 400;
-}
-.main__info_block_img{
-    width: 756px;
-    height: 392px;
+    width: 700px;
 }
 
-.shipping__calculator{
+.main__info_block_img>img {
+    width: 756px;
+    height: 392px;
+    margin-top: 5px;
+}
+
+.shipping__calculator {
     width: 756px;
     height: 584px;
     margin-left: 24px;
-    background-color: #F9FAFB;
+    background-color: #f9fafb;
     border-radius: 16px;
     display: flex;
     align-items: center;
     padding-top: 24px;
     flex-direction: column;
-
 }
 
-.shipping__calculator_title{
+.shipping__calculator_title {
     font-family: alha slab one;
     font-size: 1.875px;
     color: #111827;
 }
-.shipping__calculator_hint_info{
+
+.shipping__calculator_hint_info {
     font-family: alha slab one;
     font-size: 1em;
     color: #111827;
@@ -175,7 +181,7 @@ main{
     margin-top: 16px;
 }
 
-.shipping__calculator_input{
+.shipping__calculator_input {
     width: 496px;
     height: 48px;
     margin-top: 28px;
@@ -187,13 +193,13 @@ main{
     box-sizing: border-box;
 }
 
-.shipping__calculator_input::placeholder{
+.shipping__calculator_input::placeholder {
     font-family: alha slab one;
     font-size: 1em;
-    color: #9CA3AF;
+    color: #9ca3af;
 }
 
-.form__data{
+.form__data {
     margin-top: 24px;
     width: 236px;
     height: 48px;
@@ -204,80 +210,83 @@ main{
     border: #111827 2px solid;
 }
 
-.form__data:last-child{
+.form__data:last-child {
     margin-left: 24px;
 }
 
-.form__data::placeholder{
+.form__data::placeholder {
     font-family: alha slab one;
     font-size: 1em;
-    color: #9CA3AF;
+    color: #9ca3af;
 }
 
-.shipping__calculator_block{
+.shipping__calculator_block {
     width: 496px;
     display: flex;
     justify-content: space-between;
 }
 
-.button__sending_data{
+.button__sending_data {
     width: 496px;
     height: 44px;
     margin-top: 28px;
     border-radius: 4px;
-    background-color: #8B5CF6;
+    background-color: #8b5cf6;
     border: none;
     font-family: alha slab one;
     font-size: 1em;
-    color: #F9FAFB; 
+    color: #f9fafb;
 }
 
-.block__our_advantages{
+.block__our_advantages {
     margin-top: 72px;
 }
 
-.block__our_advantages_title{
+.block__our_advantages_title {
     color: #111827;
     font-family: alha slab one;
     font-size: 1.875em;
     text-align: center;
 }
 
-.block__our_advantages_content{
+.block__our_advantages_content {
     display: flex;
     align-items: center;
     width: 496px;
     height: 184px;
+    justify-content: center;
 }
 
-.text__our_advantages{
+.text__our_advantages {
     margin-left: 12px;
 }
 
-.title__our_advantages{
+.title__our_advantages {
     font-family: alha slab one;
     font-size: 1.5em;
 }
 
-.main_text__our_advantages{
+.main_text__our_advantages {
     margin-top: 12px;
     font-family: alha slab one;
     font-size: 0.875em;
+    width: 305px;
 }
 
-.block__our_advantages_block_container{
+
+.block__our_advantages_block_container {
     display: flex;
     width: 1536px;
     justify-content: space-between;
 }
 
-.titile__ouality_assurance{
+.titile__ouality_assurance {
     font-family: alfa slab one;
     font-size: 1.875em;
     color: #111827;
 }
 
-.block__ouality_assurance{
+.block__ouality_assurance {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -286,27 +295,27 @@ main{
     width: 1536px;
 }
 
-.text__ouality_assurance{
+.text__ouality_assurance {
     font-family: alfa slab one;
     font-size: 1em;
     color: #111827;
     margin-top: 12px;
 }
 
-.cetificate__text{
+.cetificate__text {
     font-family: alfa slab one;
     font-size: 1.125em;
     color: #111827;
 }
 
-.certificate__block{
+.certificate__block {
     margin-top: 24px;
     display: flex;
     justify-content: space-between;
 }
 
-.cerificate__button{
-    background-color: #8B5CF6;
+.cerificate__button {
+    background-color: #8b5cf6;
     width: 293px;
     height: 56px;
     border: none;
@@ -314,41 +323,41 @@ main{
     margin-top: 36px;
     font-family: alfa slab one;
     font-size: 1em;
-    color: #F9FAFB;
+    color: #f9fafb;
 }
 
-.swiper{
+.swiper {
     margin-top: 72px;
     width: 1536px;
     height: 386px;
 }
 
-.swiper-wrapper{
+.swiper-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.swiper-button-prev{
+.swiper-button-prev {
     content: url(image/left-arrow.png);
     height: 60px;
     width: 60px;
 }
 
-.swiper-button-next{
+.swiper-button-next {
     content: url(image/right-arrow.png);
     height: 60px;
     width: 60px;
 }
 
-.slider__block{
+.slider__block {
     width: 626px;
     height: 318px;
-    background-color: #F9FAFB;
-    border-radius: 16px
+    background-color: #f9fafb;
+    border-radius: 16px;
 }
 
-.slider__review{
+.slider__review {
     width: 540px;
     text-align: start;
     font-family: alfa slab one;
@@ -356,48 +365,51 @@ main{
     color: #111827;
 }
 
-.swiper-slide{
+.swiper-slide {
     display: flex;
     width: 1276px;
     justify-content: space-evenly;
 }
 
-.slider__content{
+.slider__content {
     margin: 32px 43px;
 }
 
-.slider__review_author{
+.slider__review_author {
     bottom: 100px;
     position: absolute;
-    color: #6B7280;
+    color: #6b7280;
     font-family: alfa slab one;
     font-size: 1.5em;
 }
 
-.slider__review_author::after{
+.slider__review_author::after {
+    position: absolute;
+    bottom: -8px;
+    left: 500px;
     content: url(image/commas.png);
-    margin-left: 400px;
 }
 
-.form__question{
+.form__question {
     display: flex;
     margin-top: 72px;
     width: 1536px;
-    background-color: #F9FAFB;
+    background-color: #f9fafb;
     height: 534px;
     border-radius: 16px;
     align-items: center;
     padding: 64px 0px 0px;
     flex-direction: column;
+    margin-bottom: 48px;
 }
 
-.form__question_title{
+.form__question_title {
     font-family: alfa slab one;
     font-size: 1.875em;
     color: #111827;
 }
 
-.form__message{
+.form__message {
     margin-top: 24px;
     width: 497px;
     height: 150px;
@@ -409,19 +421,19 @@ main{
     box-sizing: border-box;
 }
 
-.form__message::placeholder{
+.form__message::placeholder {
     font-family: alha slab one;
     font-size: 1em;
-    color: #9CA3AF;
+    color: #9ca3af;
 }
 
-.form__question_form{
+.form__question_form {
     display: flex;
     flex-wrap: nowrap;
     width: 497px;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: center;
     background-color: #111827;
@@ -430,62 +442,190 @@ footer{
     padding-top: 40px;
 }
 
-.footer__container{
+.footer__container {
     display: flex;
     justify-content: space-between;
     width: 1538px;
     align-items: center;
 }
 
-footer .title{
-    color: #F9FAFB;
+footer .title {
+    color: #f9fafb;
 }
-.footer__container_left{
+
+.footer__container_left {
     display: flex;
-   flex-direction: column;
+    flex-direction: column;
 }
-.footer__content_up{
+
+.footer__content_up {
     display: flex;
     align-items: center;
 }
 
-.footer__container_center{
+.footer__container_center {
     display: flex;
     align-items: center;
 }
 
-footer nav ul li a{
+footer nav ul li a {
     text-decoration: none;
     list-style-type: none;
-    color: #F9FAFB;     
+    color: #f9fafb;
     transition: color 0.2s ease;
 }
 
-.footer__text{
+.footer__text {
     font-size: 0.75em;
     font-family: alha slab one;
-    color: #F9FAFB;
+    color: #f9fafb;
 }
 
-.footer__smile{
+.footer__smile {
     width: 16px;
 }
 
-.footer__content_down{
+.footer__content_down {
     display: flex;
 }
 
-.footer__container_right{
+.footer__container_right {
     display: flex;
     text-align: center;
     flex-direction: column;
-    color: #F9FAFB;
+    color: #f9fafb;
 }
 
+.certificate__block_container {
+    display: flex;
+}
 
+@media (max-width: 1536px) {
 
+    .header__content_up {
+        display: flex;
+        justify-content: space-between;
+        width: 1024px;
+    }
 
+    .header__content_down {
+        display: flex;
+        justify-content: space-between;
+        width: 1024px;
+        margin-top: 24px;
+    }
 
+    .main__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .main__info_block {
+        display: flex;
+        width: 1024px;
+    }
 
+    .main__info_block_img>img {
+        width: 505px;
+        height: 232px;
+        margin-left: 16px;
+    }
 
+    .main__info_block_text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main__info_block_up_text {
+        width: 505px;
+    }
+
+    .main__info_block_up_down {
+        width: 505px;
+    }
+
+    .shipping__calculator {
+        margin-top: 40px;
+        width: 1024px;
+        margin-left: 0px;
+    }
+
+    .block__our_advantages_block {
+        display: flex;
+        width: 1024px;
+    }
+
+    .block__our_advantages_block_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main_text__our_advantages {
+        width: 305px;
+    }
+
+    .certificate__block_container {
+        display: block;
+    }
+
+    .certificate__block_content {
+        padding-top: 24px;
+    }
+
+    .certificate__block_content:first-child {
+        padding-top: 0px;
+    }
+    .swiper {
+        margin-top: 72px;
+        width: 1024px;
+        height: 386px;
+    }
+    .slider__block{
+        width: 396px;
+        height: 248px;
+    }
+    .slider__review {
+        width: 364px;
+        text-align: start;
+        font-family: alfa slab one;
+        font-size: 1.125em;
+        color: #111827;
+    }
+    .slider__review_author {
+        bottom: 150px;
+        position: absolute;
+        color: #6b7280;
+        font-family: alfa slab one;
+        font-size: 1em;      
+    }
+    .slider__content {
+        margin: 16px 16px;
+    }
+    .slider__review_author::after {
+        position: absolute;
+        bottom: -8px;
+        left: 300px;
+        content: url(image/commas.png);
+    }
+
+    .swiper{
+        width: 1024px;
+    }
+    .form__question{
+        margin-top: 48px;
+        width: 1024px;
+    }
+    .footer__container{
+        display: flex;
+        justify-content: space-between;
+     
+        align-items: center;
+        width: 1024px;
+    }
+    .footer__smile {
+        width: 16px;
+        height: 16px;
+    }
+}
