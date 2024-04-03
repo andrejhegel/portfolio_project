@@ -102,6 +102,10 @@ nav ul li a:hover {
     color: #8b5cf6;
 }
 
+.text__info {
+    font-size: 1.5em;
+}
+
 nav ul li {
     list-style-type: none;
     margin-right: 24px;
@@ -122,7 +126,6 @@ main {
     padding-top: 72px;
     background-color: #e5e7eb;
     flex-direction: column;
-
 }
 
 .main__info {
@@ -169,7 +172,7 @@ main {
 
 .shipping__calculator_title {
     font-family: alha slab one;
-    font-size: 1.875px;
+    font-size: 1.875em;
     color: #111827;
 }
 
@@ -272,7 +275,6 @@ main {
     font-size: 0.875em;
     width: 305px;
 }
-
 
 .block__our_advantages_block_container {
     display: flex;
@@ -501,7 +503,6 @@ footer nav ul li a {
 }
 
 @media (max-width: 1536px) {
-
     .header__content_up {
         display: flex;
         justify-content: space-between;
@@ -539,6 +540,7 @@ footer nav ul li a {
 
     .main__info_block_up_text {
         width: 505px;
+        font-size: 1.875em;
     }
 
     .main__info_block_up_down {
@@ -577,15 +579,18 @@ footer nav ul li a {
     .certificate__block_content:first-child {
         padding-top: 0px;
     }
+
     .swiper {
         margin-top: 72px;
         width: 1024px;
         height: 386px;
     }
-    .slider__block{
+
+    .slider__block {
         width: 396px;
         height: 248px;
     }
+
     .slider__review {
         width: 364px;
         text-align: start;
@@ -593,16 +598,19 @@ footer nav ul li a {
         font-size: 1.125em;
         color: #111827;
     }
+
     .slider__review_author {
         bottom: 150px;
         position: absolute;
         color: #6b7280;
         font-family: alfa slab one;
-        font-size: 1em;      
+        font-size: 1em;
     }
+
     .slider__content {
         margin: 16px 16px;
     }
+
     .slider__review_author::after {
         position: absolute;
         bottom: -8px;
@@ -610,22 +618,36 @@ footer nav ul li a {
         content: url(image/commas.png);
     }
 
-    .swiper{
+    .swiper {
         width: 1024px;
     }
-    .form__question{
+
+    .form__question {
         margin-top: 48px;
         width: 1024px;
     }
-    .footer__container{
+
+    .footer__container {
         display: flex;
         justify-content: space-between;
-     
         align-items: center;
         width: 1024px;
     }
+
     .footer__smile {
         width: 16px;
         height: 16px;
+    }
+
+    .number {
+        font-size: 1.875em;
+    }
+
+    .info {
+        font-size: 1.25em;
+    }
+
+    .text__info {
+        font-size: 1.25em;
     }
 }
